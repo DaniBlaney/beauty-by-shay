@@ -2,12 +2,13 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import NavigationBar from 'react-native-navbar';
 import Home from './components/home'
+import { red } from 'ansi-colors';
 
 export default function App() {
   return (<>
     <Home />
     <View style={styles.container}>
-      <Text>Beauty By Shay</Text>
+      <Text style={styles.construction}>Website under construction</Text>
     </View>
     </>
   );
@@ -20,4 +21,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  construction:{
+    color: 'red',
+  }
 });
