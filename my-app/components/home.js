@@ -1,17 +1,19 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import NavigationBar from 'react-native-navbar';
-import Home from './components/home'
+import ComponentWithNavigationBar from './navbar'
 
-export default function App() {
+export default function Home() {
   return (<>
-    <Home />
+<ComponentWithNavigationBar />
     <View style={styles.container}>
       <Text>Beauty By Shay</Text>
     </View>
-    </>
+  </>
   );
 }
+
+
 
 const styles = StyleSheet.create({
   container: {
