@@ -1,9 +1,8 @@
 import React from "react";
-import { render } from "react-dom";
-import {Button} from 'react-bootstrap'
+import { ReactDOM, render } from "react-dom";
+import {Container, Col, Row, Button} from 'react-bootstrap';
 import { Parallax } from "react-parallax";
 import Hello from "./components/hello";
-
 
 
 
@@ -20,7 +19,7 @@ const insideStyles = {
   transform: "translate(-50%,-50%)"
 };
 const image1 =
-  "images/mirror.jpg";
+  "images/shay.png";
 const image2 =
   "images/haircut.png";
 const image3 =
@@ -30,21 +29,21 @@ const image4 =
 
 const App = () => (<>
   <div style={styles}>
-    <Hello name="Shay" />
+    {/* <Hello name="Shay" /> */}
     <Parallax bgImage={image1} strength={500}>
-      <div style={{ height: 500 }}>
+      <div style={{ height: 600 }}>
         {/* <div style={insideStyles}>HTML inside the parallax</div> */}
       </div>
     </Parallax>
     <h1>| | |</h1>
     <Parallax bgImage={image3} blur={{ min: -1, max: 3 }}>
-      <div style={{ height: 500 }}>
+      <div style={{ height: 600 }}>
         {/* <div style={insideStyles}>Dynamic Blur</div> */}
       </div>
     </Parallax>
     <h1>| | |</h1>
     <Parallax bgImage={image2} strength={-100}>
-      <div style={{ height: 500 }}>
+      <div style={{ height: 600 }}>
         {/* <div style={insideStyles}>Reverse direction</div> */}
       </div>
     </Parallax>
@@ -74,8 +73,32 @@ const App = () => (<>
       </div>
     </Parallax>
     <div style={{ height: 500 }} />
-    <h2>{"\u2728"}</h2>
-  </div>
+    <footer className="footer">
+          < Container fluid className="bg-primary">
+            <Row>
+              <Col xs={6} md={4} className="left">
+                <p>&copy; BeautyByShay.com</p>
+            </Col>
+            <Col xs={6} md={4} className="left">
+\              <a href="#">About Us</a>
+            </Col>
+              <Col xs={6} md={4} className="right">
+                {/* <a href="#" className="btn btn-social-icon btn-twitter">
+                <span className="fa fa-twitter"></span>
+                </a>
+                <a href="#" className="btn btn-social-icon btn-facebook">
+                  <span className="fa fa-facebook"></span>
+                </a>
+                <a href="#" className="btn btn-social-icon btn-instagram">
+                <FontAwesomeIcon icon="instagram" />
+                <span className="fa fa-instagram"></span>
+                </a> */}
+            </Col>
+            </Row>
+    </ Container>
+        </footer>
+      <h2>{"\u2728"}</h2>
+    </div>
   </>
 );
 
