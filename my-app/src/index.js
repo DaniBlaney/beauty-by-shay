@@ -1,5 +1,6 @@
 import React from "react";
 import { render } from "react-dom";
+import {Button} from 'react-bootstrap'
 import { Parallax } from "react-parallax";
 import Hello from "./components/hello";
 
@@ -29,22 +30,22 @@ const image4 =
 
 const App = () => (<>
   <div style={styles}>
-    <Hello name="Parallax" />
+    <Hello name="Shay" />
     <Parallax bgImage={image1} strength={500}>
       <div style={{ height: 500 }}>
-        <div style={insideStyles}>HTML inside the parallax</div>
+        {/* <div style={insideStyles}>HTML inside the parallax</div> */}
       </div>
     </Parallax>
     <h1>| | |</h1>
     <Parallax bgImage={image3} blur={{ min: -1, max: 3 }}>
       <div style={{ height: 500 }}>
-        <div style={insideStyles}>Dynamic Blur</div>
+        {/* <div style={insideStyles}>Dynamic Blur</div> */}
       </div>
     </Parallax>
     <h1>| | |</h1>
     <Parallax bgImage={image2} strength={-100}>
       <div style={{ height: 500 }}>
-        <div style={insideStyles}>Reverse direction</div>
+        {/* <div style={insideStyles}>Reverse direction</div> */}
       </div>
     </Parallax>
     <h1>| | |</h1>
@@ -69,7 +70,7 @@ const App = () => (<>
       )}
     >
       <div style={{ height: 500 }}>
-        <div style={insideStyles}>renderProp</div>
+        <Button style={insideStyles}>Gallery</Button>
       </div>
     </Parallax>
     <div style={{ height: 500 }} />
