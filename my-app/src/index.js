@@ -1,6 +1,6 @@
 import React from "react";
 import { ReactDOM, render } from "react-dom";
-import {Container, Col, Row, Button} from 'react-bootstrap';
+import {Container, Col, Row, Button, Nav, Navbar, Brand, NavItem, Image} from 'react-bootstrap';
 import { Parallax } from "react-parallax";
 import Hello from "./components/hello";
 
@@ -28,6 +28,22 @@ const image4 =
   "images/girl.jpg";
 
 const App = () => (<>
+    <div style={styles}>
+      <Nav>
+        <Navbar bg="dark" variant="dark">
+          <Navbar.Brand href="#home">
+            <img
+              alt=""
+              src=""
+              width="30"
+              height="30"
+              className="d-inline-block align-top"
+            />
+            {' Welcome '}
+          </Navbar.Brand>
+        </Navbar>
+      </Nav>
+    </div>
   <div style={styles}>
     {/* <Hello name="Shay" /> */}
     <Parallax bgImage={image1} strength={500}>
