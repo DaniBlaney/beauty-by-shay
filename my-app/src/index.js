@@ -3,6 +3,9 @@ import { render } from "react-dom";
 import { Parallax } from "react-parallax";
 import Hello from "./components/hello";
 
+
+
+
 const styles = {
   fontFamily: "sans-serif",
   textAlign: "center"
@@ -18,13 +21,13 @@ const insideStyles = {
 const image1 =
   "images/mirror.jpg";
 const image2 =
-  "images/hair.png";
+  "images/haircut.png";
 const image3 =
-  "images/chris.png";
+  "images/prom.jpg";
 const image4 =
   "images/girl.jpg";
 
-const App = () => (
+const App = () => (<>
   <div style={styles}>
     <Hello name="Parallax" />
     <Parallax bgImage={image1} strength={500}>
@@ -72,6 +75,7 @@ const App = () => (
     <div style={{ height: 500 }} />
     <h2>{"\u2728"}</h2>
   </div>
+  </>
 );
 
 render(<App />, document.getElementById("root"));
