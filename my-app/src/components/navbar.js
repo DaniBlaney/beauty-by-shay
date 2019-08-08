@@ -3,7 +3,7 @@ import { Nav, NavDropdown, NavItem, Navbar, NavbarBrand, NavLink, Container } fr
 
 const NavBarComponent = () => {
   return (<>
-    <Container>
+    <Container fluid>
       <Navbar sticky="top" bg="light" variant="light">
         <Navbar.Brand href="#">Beauty By Shay</Navbar.Brand>
         <Nav className="mr-auto">
