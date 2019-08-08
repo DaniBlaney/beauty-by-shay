@@ -5,8 +5,17 @@ const NavBarComponent = () => {
   return (<>
     <Container fluid>
       <Navbar ClassName="navbar" sticky="top" bg="light" variant="light">
-        <Navbar.Brand href="#">Beauty By Shay</Navbar.Brand>
-        <Nav className="mr-auto">
+        <Navbar.Brand href="#home">
+          <img
+            alt=""
+            src="./images/logo.svg"
+            width="30"
+            height="30"
+            className="d-inline-block align-top"
+          />
+          {' Beauty By Shay'}
+        </Navbar.Brand>
+        <Nav className="justify-content-right">
           <Nav.Link href="#gallery">Gallery</Nav.Link>
           <Nav.Link href="#contact">Contact</Nav.Link>
         </Nav>
