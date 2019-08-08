@@ -12,12 +12,12 @@ const FooterComponent = () => {
             <a>&copy; BeautyByShay 2019 {"\u2728"}</a>
           </Nav.Item>
           <Nav.Link>
+            <a href="https://www.instagram.com/beautyy_by_shay/?hl=en" className="btn btn-social-icon btn-instagram">
+              Follow me on Instagram @Beautyy_by_shay <FontAwesomeIcon icon="instagram" />
+              <span className="fa fa-instagram"></span>
+            </a>
             <a href="#" className="btn btn-social-icon btn-facebook">
               <span className="fa fa-facebook"></span>
-            </a>
-            <a href="https://www.instagram.com/beautyy_by_shay/?hl=en" className="btn btn-social-icon btn-instagram">
-              <FontAwesomeIcon icon="instagram" />
-              <span className="fa fa-instagram"></span>
             </a>
           </Nav.Link>
         </ Container>

@@ -16,5 +16,7 @@ body{
 }
 .navbar {
   outline-color: black 5px;
-
   }
+.heading{
+  margin: 25px;
+}
