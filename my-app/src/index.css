@@ -14,3 +14,7 @@ code {
 body{
   background-color: lightblue;
 }
+.navbar {
+  outline-color: black 5px;
+
+  }
