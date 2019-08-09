@@ -38,6 +38,9 @@ body{
 .imageSize{
   width: 250px;
 }
+.headerSize{
+  font-size: 25px;
+}
 .bottom{
   margin-bottom: 3px;
 }

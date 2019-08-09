@@ -64,7 +64,7 @@ const HomePage = () => {
           </Col>
           <Col md={6}>
             <Card className="cardStyle cert">
-              <Card.Header align="center">Certifications</Card.Header>
+              <Card.Header className="headerSize" align="center">Certifications</Card.Header>
               <Card.Body align="left">
                 <blockquote className="blockquote mb-0">
                   <ul className="otis">
