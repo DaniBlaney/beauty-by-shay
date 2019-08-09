@@ -19,7 +19,7 @@ const HomePage = () => {
               <Card.Body>
                 <Card.Title>About me</Card.Title>
                 <Card.Text>
-                  Graduated Raritan Valley Community College Cosmetology and Hair Styling Program.
+                  Beauty professional who recently graduated Raritan Valley Community College Cosmetology and Hair Styling Program.
             </Card.Text>
               </Card.Body>
             </Card>
@@ -44,7 +44,6 @@ const HomePage = () => {
               </Button>
                 <Card.Text>
                   Check out some of the work I have done!
-
                 </Card.Text>
               </Card.Body>
             </Card>
