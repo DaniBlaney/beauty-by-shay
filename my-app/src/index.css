@@ -24,3 +24,9 @@ body{
 .heading{
   margin: 25px;
 }
+.cardStyle {
+  -webkit-box-shadow: 10px 10px 10px rgb(105, 103, 103);
+  -moz-box-shadow:    10px 10px 10px rgb(105, 103, 103);
+  box-shadow:         10px 10px 10px rgb(105, 103, 103);
+  z-index:999;
+}
