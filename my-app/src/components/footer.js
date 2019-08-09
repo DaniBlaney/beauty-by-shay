@@ -5,7 +5,7 @@ import 'font-awesome/css/font-awesome.min.css'
 
 const FooterComponent = () => {
   return (<>
-    <footer className="footer fixed-bottom">
+    <footer className="footer">
       <Navbar sticky="bottom">
         < Container fluid className="bg-light">
           <Nav.Item>
