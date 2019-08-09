@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+body{
+  background-image: url("./components/Home/marble.jpg");
+  background-repeat: repeat;
+}
+.navbar {
+  outline-color: black 5px;
+  }
+.heading{
+  margin: 25px;
+}
