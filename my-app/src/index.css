@@ -38,3 +38,6 @@ body{
     list-style-type: none;
     padding: 8px;
 }
+.imageSize{
+  width: 250px;
+}
