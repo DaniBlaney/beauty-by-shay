@@ -39,4 +39,11 @@
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.10.1"
   }
+  {
+    "buildpacks": [
+      {
+        "url": "https://beautybyshay.herokuapp.com/"
+      }
+    ]
+  }
 }
