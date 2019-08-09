@@ -30,7 +30,7 @@ const HomePage = () => {
                 <Card.Text>
                   I find it rewarding to help people bring out their own natural beauty.
                   Being a hairstylist is more than just about hair. It is about making personal
-                  connections with your clients and helping the anyone who sits in your chair
+                  connections with your clients and helping anyone who sits in your chair
                   find their beauty, inside and out!
                 </Card.Text>
               </Card.Body>
