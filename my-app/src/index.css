@@ -12,7 +12,8 @@ code {
     monospace;
 }
 body{
-  background-color: lightblue;
+  background-image: url("./components/Home/marble.jpg");
+  background-repeat: repeat;
 }
 .navbar {
   outline-color: black 5px;

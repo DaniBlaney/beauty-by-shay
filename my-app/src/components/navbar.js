@@ -4,7 +4,7 @@ import { Nav, NavDropdown, NavItem, Navbar, NavbarBrand, NavLink, Container, But
 const NavBarComponent = () => {
   return (<>
     <Container fluid>
-      <Navbar ClassName="navbar" sticky="top" bg="light" variant="light">
+      <Navbar className="navbar" sticky="top" bg="light" variant="light">
         <Navbar.Brand href="#home">
           <img
             alt=""
@@ -16,8 +16,8 @@ const NavBarComponent = () => {
           {' Beauty By Shay'}
         </Navbar.Brand>
         <Nav className="justify-content-right">
-          <Nav.Link href="#gallery">Gallery</Nav.Link>
-          <Nav.Link href="#contact">Contact</Nav.Link>
+          <Nav.Link href="/gallery">Gallery</Nav.Link>
+          <Nav.Link href="/contact">Contact</Nav.Link>
         </Nav>
       </Navbar>
     </Container>

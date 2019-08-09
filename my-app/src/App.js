@@ -6,7 +6,7 @@ import Gallery from './components/gallery-page'
 import Contact from './components/contact-page'
 import './App.css';
 
-function App() {
+function App () {
   return (
     <Router>
     <div>
