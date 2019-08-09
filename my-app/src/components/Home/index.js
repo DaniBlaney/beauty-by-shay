@@ -14,7 +14,7 @@ const HomePage = () => {
       <Container fluid>
         <Row>
           <Col>
-            <Card.Img className="cardStyle" src="./images/hairheart.jpg" />
+            <Card.Img className="cardStyle" src="./images/shay.png" />
           </Col>
           <Col>
             <Card className="cardStyle">
@@ -38,7 +38,7 @@ const HomePage = () => {
           </Col>
           <Col>
             <Card className="cardStyle" style={{ width: '20rem' }}>
-              <Card.Img variant="top" src="./images/shayy.png" />
+              <Card.Img variant="top" src="./images/hairheart.png" />
               <Card.Body>
                 <Button href="/gallery" variant="light" block>
                   <Card.Title>Gallery</Card.Title>
