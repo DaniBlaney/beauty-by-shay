@@ -30,17 +30,17 @@ body{
   box-shadow:         10px 10px 10px rgb(105, 103, 103);
   z-index:999;
 }
-.cert{
-  height: 500px;
-}
 
 .otis li {
     list-style-type: none;
-    padding: 8px;
+    font-size: 18px;
 }
 .imageSize{
   width: 250px;
 }
 .bottom{
   margin-bottom: 3px;
+}
+.subtitle{
+  margin-bottom: 5px;
 }
