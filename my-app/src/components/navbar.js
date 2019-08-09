@@ -4,8 +4,8 @@ import { Nav, NavDropdown, NavItem, Navbar, NavbarBrand, NavLink, Container, But
 const NavBarComponent = () => {
   return (<>
     <Container fluid>
-      <Navbar className="navbar" sticky="top" bg="light" variant="light">
-        <Navbar.Brand href="#home">
+      <Navbar className="navbar" id="custom-nav" sticky="top" bg="light" variant="light">
+        <Navbar.Brand href="/">
           <img
             alt=""
             src="./images/logo.svg"
