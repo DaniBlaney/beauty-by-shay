@@ -58,14 +58,19 @@ const HomePage = () => {
             <Card.Header>Certifications</Card.Header>
             <Card.Body>
               <blockquote className="blockquote mb-0">
-                <p>
+                <ul>
                   {' '}
-                  {"\u2728"} La Bella Hair Extension Certified |
-                  {"\u2728"} Certified in Cut it Out
+                  <li>{"\u2728"} La Bella Hair Extension Certified |</li>
+                  <li>{"\u2728"} Certified in Cut it Out |</li>
+                  <li>{"\u2728"} Wella Custom Product Certified |</li>
+                  <li>{"\u2728"} Wella Custom Color Essentials Cert |</li>
+                  <li>{"\u2728"} Barbicide Certified |</li>
+                  <li>{"\u2728"} Eyes On Cancer Melanoma Awareness Certified |</li>
+                  <li>{"\u2728"} CPR & First Aid Certified |</li>
                   {' '}
-                </p>
+                </ul>
                 <footer className="blockquote-footer">
-                  Someone famous in <cite title="Source Title">Source Title</cite>
+                Additional skills: <cite title="Source Title">Sign Language</cite>
                 </footer>
               </blockquote>
             </Card.Body>
