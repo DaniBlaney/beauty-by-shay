@@ -5,11 +5,13 @@ import NavBarComponent from "../navbar";
 import FooterComponent from '../footer';
 
 
-const GalleryPage = () => {
+const Gallery = () => {
   return (
     <>
+    <NavBarComponent/>
 
-
+    <FooterComponent/>
     </>
 );
 }
+export default Gallery;

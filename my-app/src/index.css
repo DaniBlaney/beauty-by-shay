@@ -15,9 +15,12 @@ body{
   background-image: url("./components/Home/marble.jpg");
   background-repeat: repeat;
 }
-.navbar {
-  outline-color: black 5px;
-  }
+#custom-nav {
+  -webkit-box-shadow: 10px 10px 10px rgb(105, 103, 103);
+  -moz-box-shadow:    10px 10px 10px rgb(105, 103, 103);
+  box-shadow:         10px 10px 10px rgb(105, 103, 103);
+  z-index:999;
+}
 .heading{
   margin: 25px;
 }
