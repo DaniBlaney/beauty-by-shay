@@ -53,10 +53,10 @@ const HomePage = () => {
       <hr />
       <Container fluid>
         <Row>
-          <Col md={6}>
-            <Card.Img className="cardStyle" style={{ width: '33em' }} src="./images/fringe.png" />
+          <Col md={5}>
+            <Card.Img className="cardStyle" style={{ width: '30em' }} src="./images/fringe.png" />
           </Col>
-          <Col md={6}>
+          <Col md={7}>
             <Card className="cardStyle">
               <Card.Header>Certifications</Card.Header>
               <Card.Body>
