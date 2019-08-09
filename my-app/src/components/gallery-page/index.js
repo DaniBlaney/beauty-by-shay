@@ -66,6 +66,20 @@ const Gallery = () => {
             <Image className="imageSize" src="./images/highlight4.jpeg" rounded />
           </Col>
         </Row>
+        <Row className="bottom">
+          <Col xs={6} md={3}>
+            <Image className="imageSize" src="./images/long1.jpg" rounded />
+          </Col>
+          <Col xs={6} md={3}>
+            <Image className="imageSize" src="./images/long2.jpg" rounded />
+          </Col>
+          <Col xs={6} md={3}>
+            <Image className="imageSize" src="./images/long3.jpg" rounded />
+          </Col>
+          <Col xs={6} md={3}>
+            <Image className="imageSize" src="./images/long4.jpg" rounded />
+          </Col>
+        </Row>
 
       </Container>
       <FooterComponent />
