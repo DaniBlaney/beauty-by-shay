@@ -64,13 +64,13 @@ const HomePage = () => {
                 <blockquote className="blockquote mb-0">
                   <ul>
                     {' '}
-                    <li>{"\u2728"} La Bella Hair Extension Certified |</li>
-                    <li>{"\u2728"} Certified in Cut it Out |</li>
-                    <li>{"\u2728"} Wella Custom Product Certified |</li>
-                    <li>{"\u2728"} Wella Custom Color Essentials Cert |</li>
-                    <li>{"\u2728"} Barbicide Certified |</li>
-                    <li>{"\u2728"} Eyes On Cancer Melanoma Awareness Certified |</li>
-                    <li>{"\u2728"} CPR & First Aid Certified |</li>
+                    <li>{"\u2728"} La Bella Hair Extension Certified </li>
+                    <li>{"\u2728"} Certified in Cut it Out </li>
+                    <li>{"\u2728"} Wella Custom Product Certified </li>
+                    <li>{"\u2728"} Wella Custom Color Essentials Cert </li>
+                    <li>{"\u2728"} Barbicide Certified </li>
+                    <li>{"\u2728"} Eyes On Cancer Melanoma Awareness Certified </li>
+                    <li>{"\u2728"} CPR & First Aid Certified </li>
                     {' '}
                   </ul>
                   <footer className="blockquote-footer">
