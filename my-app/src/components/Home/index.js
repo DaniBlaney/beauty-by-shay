@@ -18,11 +18,7 @@ const HomePage = () => {
               <Card.Body>
                 <Card.Title>About me</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up the bulk of
-                  the card's content.
-                  <hr></hr>
-                  {"\u2728"} La Bella Hair Extension Certified |
-                  {"\u2728"} Certified in Cut it Out
+                  Graduated Raritan Valley Community College Cosmetology and Hair Styling Program.
             </Card.Text>
               </Card.Body>
             </Card>
@@ -31,22 +27,20 @@ const HomePage = () => {
             <Card  style={{ width: '20rem' }}>
               <Card.Img variant="top" src="./images/hairheart.png" />
               <Card.Body>
-                <Card.Title>Why I love my job</Card.Title>
-                <Card.Text className="h-100">
-                  Some quick example text to build on the card title and make up the bulk of
-                  the card's content.
+                <Card.Title>Why I love my profession</Card.Title>
+                <Card.Text>
+                  I find it rewarding to help people bring out their own natural beauty.
             </Card.Text>
               </Card.Body>
             </Card>
           </Col>
           <Col>
             <Card style={{ width: '20rem' }}>
-              <Card.Img variant="top" src="./images/wavy.png" />
+              <Card.Img variant="top" src="./images/shayy.png" />
               <Card.Body>
                 <Card.Title>Gallery</Card.Title>
-                <Card.Text className="h-100">
-                  Some quick example text to build on the card title and make up the bulk of
-                  the card's content.
+                <Card.Text>
+                  Check out some of the work I have done!
             </Card.Text>
               </Card.Body>
             </Card>
@@ -61,13 +55,14 @@ const HomePage = () => {
           </Col>
           <Col md={6}>
           <Card >
-            <Card.Header>Quote</Card.Header>
+            <Card.Header>Certifications</Card.Header>
             <Card.Body>
               <blockquote className="blockquote mb-0">
                 <p>
                   {' '}
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
-        erat a ante.{' '}
+                  {"\u2728"} La Bella Hair Extension Certified |
+                  {"\u2728"} Certified in Cut it Out
+                  {' '}
                 </p>
                 <footer className="blockquote-footer">
                   Someone famous in <cite title="Source Title">Source Title</cite>
