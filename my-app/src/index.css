@@ -30,6 +30,10 @@ body{
   box-shadow:         10px 10px 10px rgb(105, 103, 103);
   z-index:999;
 }
+.imgStyle{
+  width: 100% !important;
+  height: 555px !important;
+}
 .insta{
   float: right;
 }

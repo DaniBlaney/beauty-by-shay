@@ -10,12 +10,14 @@ const HomePage = () => {
   return (
     <>
       <NavBarComponent />
-      <h2 className="heading" align="center">Beauty Blog By Shay</h2>
+
       <Container fluid>
-        <Row>
+        <Row className="justify-content-md-center">
           <Col>
-            <Card.Img className="cardStyle" src="./images/shay.png" />
+            <Card.Img className="cardStyle imgStyle" src="./images/fade.png" />
           </Col>
+        </Row>
+        <Row>
           <Col>
             <Card className="cardStyle">
               <Card.Header>About me</Card.Header>
@@ -36,7 +38,7 @@ const HomePage = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col>
+          {/* <Col>
             <Card className="cardStyle" style={{ width: '20rem' }}>
               <Card.Img variant="top" src="./images/hairheart.png" />
               <Card.Body>
@@ -48,7 +50,7 @@ const HomePage = () => {
                 </Card.Text>
               </Card.Body>
             </Card>
-          </Col>
+          </Col> */}
         </Row>
       </Container>
       <hr />
