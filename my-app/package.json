@@ -15,15 +15,22 @@
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1"
   },
+  "engines": {
+    "node": "12.4.0",
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "engines": {
-    "node": "12.4.0",
-  },
+  {
+    "buildpacks": [
+      {
+        "url": "https://beautybyshay.herokuapp.com/"
+      }
+    ]
+  }
   "eslintConfig": {
     "extends": "react-app"
   },
