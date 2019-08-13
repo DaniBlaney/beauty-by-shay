@@ -2,6 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://beautybyshay.herokuapp.com/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.19",
     "@fortawesome/free-solid-svg-icons": "^5.9.0",
@@ -39,16 +40,5 @@
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.10.1"
   }
-  "description": "",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DaniBlaney/beauty-by-shay"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/DaniBlaney/beauty-by-shay/issues"
-  },
-  "homepage": "https://beautybyshay.herokuapp.com/"
+
 }
