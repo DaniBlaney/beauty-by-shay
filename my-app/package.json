@@ -49,4 +49,16 @@
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.10.1"
   }
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaniBlaney/beauty-by-shay"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaniBlaney/beauty-by-shay/issues"
+  },
+  "homepage": "https://beautybyshay.herokuapp.com/"
 }
