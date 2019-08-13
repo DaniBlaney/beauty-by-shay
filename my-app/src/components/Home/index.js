@@ -17,10 +17,11 @@ const HomePage = () => {
             <Card.Img className="cardStyle imgStyle" src="./images/fade.png" />
           </Col>
         </Row>
+        <hr/>
         <Row>
           <Col>
             <Card className="cardStyle">
-              <Card.Header>About me</Card.Header>
+              <Card.Header className="headerSize" style={{fontWeight:'bold'}}>About me</Card.Header>
               <Card.Body>
                 <Card.Title bold> Education </Card.Title>
 
@@ -53,7 +54,7 @@ const HomePage = () => {
           </Col>
           <Col md={6}>
             <Card className="cardStyle cert">
-              <Card.Header className="headerSize" align="center">Certifications</Card.Header>
+              <Card.Header className="headerSize" style={{fontWeight:'bold'}} align="center">Certifications</Card.Header>
               <Card.Body align="left">
                 <blockquote className="blockquote mb-0">
                   <ul className="otis demopara">
