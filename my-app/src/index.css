@@ -30,17 +30,36 @@ body{
   box-shadow:         10px 10px 10px rgb(105, 103, 103);
   z-index:999;
 }
+.imgStyle{
+  width: 100% !important;
+  height: 555px !important;
+  opacity: .90;
+}
+.full-height {
+  min-height:100vh;
+}
 .cert{
   height: 500px;
 }
-
+.insta{
+  float: right;
+}
 .otis li {
     list-style-type: none;
-    padding: 8px;
+    font-size: 18px;
+}
+.demopara {
+  line-height: 2.5 ;
 }
 .imageSize{
   width: 250px;
 }
+.headerSize{
+  font-size: 25px;
+}
 .bottom{
   margin-bottom: 3px;
+}
+.subtitle{
+  margin-bottom: 5px;
 }
