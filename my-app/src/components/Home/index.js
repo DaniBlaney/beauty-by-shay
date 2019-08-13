@@ -33,28 +33,15 @@ const HomePage = () => {
                   I find it rewarding to help people bring out their own natural beauty.
                   Being a hairstylist is more than just about hair. It is about making personal
                   connections with your clients and helping anyone who sits in your chair
-                  find their beauty, inside and out!
+                  find their beauty, inside and out! Click the gallery page and check out some of my client transformation pictures!
                 </Card.Text>
               </Card.Body>
             </Card>
           </Col>
-          {/* <Col>
-            <Card className="cardStyle" style={{ width: '20rem' }}>
-              <Card.Img variant="top" src="./images/hairheart.png" />
-              <Card.Body>
-                <Button href="/gallery" variant="light" block>
-                  <Card.Title>Gallery</Card.Title>
-                </Button>
-                <Card.Text>
-                  Click here to see some of my client transformations before and after pictures!
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col> */}
         </Row>
       </Container>
       <hr />
-      <Container fluid>
+      <Container fluid className="full-height">
         <Row>
           <Col md={6}>
             <Card className="bg-dark text-white cardStyle">
@@ -69,7 +56,7 @@ const HomePage = () => {
               <Card.Header className="headerSize" align="center">Certifications</Card.Header>
               <Card.Body align="left">
                 <blockquote className="blockquote mb-0">
-                  <ul className="otis">
+                  <ul className="otis demopara">
                     {' '}
                     <li>{"\u2728"} La Bella Hair Extension Certified </li>
                     <li>{"\u2728"} Certified in Cut it Out </li>

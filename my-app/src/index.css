@@ -33,6 +33,13 @@ body{
 .imgStyle{
   width: 100% !important;
   height: 555px !important;
+  opacity: .90;
+}
+.full-height {
+  min-height:100vh;
+}
+.cert{
+  height: 500px;
 }
 .insta{
   float: right;
@@ -40,6 +47,9 @@ body{
 .otis li {
     list-style-type: none;
     font-size: 18px;
+}
+.demopara {
+  line-height: 2.5 ;
 }
 .imageSize{
   width: 250px;
