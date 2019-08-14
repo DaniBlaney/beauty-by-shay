@@ -3,6 +3,6 @@
 https://beautybyshay.herokuapp.com/
 (working on deploying to heroku...)
 
-![Home](/images/screenshotbeauty.png)
+![Home](../images/screenshotbeauty.png)
 
-![Gallery](/images/screenshotgallery.png)
+![Gallery](../images/screenshotgallery.png)
