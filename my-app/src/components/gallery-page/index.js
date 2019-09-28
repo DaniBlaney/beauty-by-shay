@@ -94,6 +94,62 @@ const Gallery = () => {
             <Image className="imageSize" src="./images/bun4.jpg" rounded />
           </Col>
         </Row>
+        <Row className="bottom">
+          <Col xs={6} md={3}>
+            <Image className="imageSize" src="./images/dye1.jpeg" rounded />
+          </Col>
+          <Col xs={6} md={3}>
+            <Image className="imageSize" src="./images/dye3.jpeg" rounded />
+          </Col>
+          <Col xs={6} md={3}>
+            <Image className="imageSize" src="./images/dye2.jpeg" rounded />
+          </Col>
+          <Col xs={6} md={3}>
+            <Image className="imageSize" src="./images/dye4.jpeg" rounded />
+          </Col>
+        </Row>
+        <Row className="bottom">
+          <Col xs={6} md={3}>
+            <Image className="imageSize" src="./images/dye5.jpeg" rounded />
+          </Col>
+          <Col xs={6} md={3}>
+            <Image className="imageSize" src="./images/dye6.jpeg" rounded />
+          </Col>
+          <Col xs={6} md={3}>
+            <Image className="imageSize" src="./images/dye7.jpeg" rounded />
+          </Col>
+          <Col xs={6} md={3}>
+            <Image className="imageSize" src="./images/dye8.jpeg" rounded />
+          </Col>
+        </Row>
+        <Row className="bottom">
+          <Col xs={6} md={3}>
+            <Image className="imageSize" src="./images/dye9.jpeg" rounded />
+          </Col>
+          <Col xs={6} md={3}>
+            <Image className="imageSize" src="./images/dye10.jpeg" rounded />
+          </Col>
+          <Col xs={6} md={3}>
+            <Image className="imageSize" src="./images/dye11.jpeg" rounded />
+          </Col>
+          <Col xs={6} md={3}>
+            <Image className="imageSize" src="./images/dye12.jpeg" rounded />
+          </Col>
+        </Row>
+        <Row className="bottom">
+          <Col xs={6} md={3}>
+            <Image className="imageSize" src="./images/dye13.jpeg" rounded />
+          </Col>
+          <Col xs={6} md={3}>
+            <Image className="imageSize" src="./images/" rounded />
+          </Col>
+          <Col xs={6} md={3}>
+            <Image className="imageSize" src="./images/" rounded />
+          </Col>
+          <Col xs={6} md={3}>
+            <Image className="imageSize" src="./images/" rounded />
+          </Col>
+        </Row>
 
       </Container>
       <FooterComponent />
