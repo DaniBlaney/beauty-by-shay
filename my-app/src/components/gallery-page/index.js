@@ -136,6 +136,20 @@ const Gallery = () => {
             <Image className="imageSize" src="./images/dye12.jpeg" rounded />
           </Col>
         </Row>
+        <Row className="bottom">
+          <Col xs={6} md={3}>
+            <Image className="imageSize" src="./images/dye13.jpeg" rounded />
+          </Col>
+          <Col xs={6} md={3}>
+            <Image className="imageSize" src="./images/" rounded />
+          </Col>
+          <Col xs={6} md={3}>
+            <Image className="imageSize" src="./images/" rounded />
+          </Col>
+          <Col xs={6} md={3}>
+            <Image className="imageSize" src="./images/" rounded />
+          </Col>
+        </Row>
 
       </Container>
       <FooterComponent />
