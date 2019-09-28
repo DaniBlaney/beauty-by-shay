@@ -64,6 +64,16 @@ const HomePage = () => {
             </Card>
           </Col>
         </Row>
+        <hr/>
+        <Card className="cardStyle" style={{ backgroundColor: '#ffb6c17a', height: '375px' }}>
+          <Row>
+            <Col></Col>
+            <Col style={{alignContent:'center'}}>
+             <img src="./images/servies.png" style={{height: '400px'}}></img>
+            </Col>
+            <Col></Col>
+            </Row>
+          </Card>
       </Container>
       <hr />
       <FooterComponent />
