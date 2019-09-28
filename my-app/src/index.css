@@ -63,3 +63,10 @@ body{
 .subtitle{
   margin-bottom: 5px;
 }
+.About{
+  padding-top:35px;
+  padding-bottom: 20px;
+}
+.cloud{
+  background-image: url("/images/pinkcloud.jpeg");
+}

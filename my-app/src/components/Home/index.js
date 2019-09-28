@@ -17,29 +17,19 @@ const HomePage = () => {
             <Card.Img className="cardStyle imgStyle" src="./images/fade.png" />
           </Col>
         </Row>
-        <hr/>
-        <Row>
-          <Col>
-            <Card className="cardStyle">
-              <Card.Header className="headerSize" style={{fontWeight:'bold'}}>About me</Card.Header>
-              <Card.Body>
-                <Card.Title bold> Education </Card.Title>
-
-                <Card.Text>Recently graduated Raritan Valley
-                  Community College Cosmetology and Hair Styling Program.
-                <hr />
-                </Card.Text>
-                <Card.Title bold> Why do I love my profession?</Card.Title>
-                <Card.Text>
-                  I find it rewarding to help people bring out their own natural beauty.
-                  Being a hairstylist is more than just about hair. It is about making personal
-                  connections with your clients and helping anyone who sits in your chair
-                  find their beauty, inside and out! Click the gallery page and check out some of my client transformation pictures!
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
+        <hr />
+        <Row className="cardStyle" style={{ backgroundColor: '#ffb6c17a', height: '375px' }}>
+            <Col md={3}>
+              <Card.Img src="./images/headshot.jpeg" style={{ width: '200px' }} />
+            </Col>
+            <Col md={9}>
+              <h2 className="About" style={{textDecorationLine: 'underline' }}>About</h2>
+              <h5>Education:</h5>
+                <p>Recently graduated Raritan Valley Community College Cosmetology and Hair Styling Program.</p>
+              <h5>Why do I love my Profession?</h5>
+                <p>I find it rewarding to help people bring out their own natural beauty. Being a hairstylist is more than just about hair. It is about making personal connections with your clients and helping anyone who sits in your chair find their beauty, inside and out! Click the gallery page and check out some of my client transformation pictures!</p>
+            </Col>
+          </Row>
       </Container>
       <hr />
       <Container fluid className="full-height">
@@ -54,7 +44,7 @@ const HomePage = () => {
           </Col>
           <Col md={6}>
             <Card className="cardStyle cert">
-              <Card.Header className="headerSize" style={{fontWeight:'bold'}} align="center">Certifications</Card.Header>
+              <Card.Header className="headerSize" style={{ fontWeight: 'bold' }} align="center">Certifications</Card.Header>
               <Card.Body align="left">
                 <blockquote className="blockquote mb-0">
                   <ul className="otis demopara">
@@ -74,6 +64,16 @@ const HomePage = () => {
             </Card>
           </Col>
         </Row>
+        <hr/>
+        <Card className="cardStyle" style={{ backgroundColor: '#ffb6c17a', height: '375px' }}>
+          <Row>
+            <Col></Col>
+            <Col style={{alignContent:'center'}}>
+             <img src="./images/servies.png" style={{height: '400px'}}></img>
+            </Col>
+            <Col></Col>
+            </Row>
+          </Card>
       </Container>
       <hr />
       <FooterComponent />
