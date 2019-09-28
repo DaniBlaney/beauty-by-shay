@@ -96,16 +96,16 @@ const Gallery = () => {
         </Row>
         <Row className="bottom">
           <Col xs={6} md={3}>
-            <Image className="imageSize" src="./images/bun1.jpg" rounded />
+            <Image className="imageSize" src="./images/dye1.jpeg" rounded />
           </Col>
           <Col xs={6} md={3}>
-            <Image className="imageSize" src="./images/bun2.jpg" rounded />
+            <Image className="imageSize" src="./images/dye3.jpeg" rounded />
           </Col>
           <Col xs={6} md={3}>
-            <Image className="imageSize" src="./images/bun3.jpg" rounded />
+            <Image className="imageSize" src="./images/dye2.jpeg" rounded />
           </Col>
           <Col xs={6} md={3}>
-            <Image className="imageSize" src="./images/bun4.jpg" rounded />
+            <Image className="imageSize" src="./images/dye4.jpeg" rounded />
           </Col>
         </Row>
 
