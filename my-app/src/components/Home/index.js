@@ -23,8 +23,8 @@ const HomePage = () => {
               <Card.Img src="./images/headshot.jpeg" style={{ width: '200px' }} />
             </Col>
             <Col md={9}>
-              <h2 style={{ fontStyle: 'underlined' }}>About</h2>
-              <h5>Education</h5>
+              <h2 className="About" style={{textDecorationLine: 'underline' }}>About</h2>
+              <h5>Education:</h5>
                 <p>Recently graduated Raritan Valley Community College Cosmetology and Hair Styling Program.</p>
               <h5>Why do I love my Profession?</h5>
                 <p>I find it rewarding to help people bring out their own natural beauty. Being a hairstylist is more than just about hair. It is about making personal connections with your clients and helping anyone who sits in your chair find their beauty, inside and out! Click the gallery page and check out some of my client transformation pictures!</p>
